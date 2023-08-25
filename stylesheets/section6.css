@@ -1,0 +1,103 @@
+.section6_container{
+    display: flex;
+    justify-content: center;
+
+}
+.section6_main{
+    width: 65%;
+    height: 140%;
+    /* background-color: beige; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .4fr 1fr .2fr;
+    row-gap: 20px;
+    column-gap: 25px;
+}
+.section6_main div{
+    /* background-color: beige; */
+}
+.section6_head, .section6_footer{
+    grid-column: span 2;
+}
+.section6_body{
+    display: grid;
+    grid-template-rows: .6fr .4fr;
+    box-shadow: var(--box_shadow_main);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.section6_image1{
+    background-image: url("https://www17.wellsfargomedia.com/assets/images/rwd/volunteers_cars_616x353.jpg");
+}
+.section6_image2{
+    background-image: url("https://www17.wellsfargomedia.com/assets/images/rwd/women-in-greenhouse_616x353.png")
+}
+
+.section6_image1, .section6_image2{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.section6_body_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.section6_body_text h3{
+    font-size: 25px;
+    margin: 0;
+}
+.section6_body_text button{
+    width: 35%;
+    height: 25%;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 15px;
+    z-index: 1;
+}
+.section6_body_text button:hover{
+    background-color: black;
+    color: white;
+}
+.section6_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small_line{
+    background-color: rgb(230, 202, 77);
+    width: 5rem
+}
+.section6_head h2{
+    font-size:45px;
+}
+.section6_subtext{
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+}
+.section6_footer{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4px;
+}
+.section6_footer div{
+    /* background-color: bisque; */
+}
+.section6_footer_head{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.section6_footer_links{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    z-index: 1;
+}
+.section6_footer_links div{
+    margin-right: 50px;
+}

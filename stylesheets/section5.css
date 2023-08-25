@@ -1,0 +1,52 @@
+.section5_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.section5_main{
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(87, 78, 139), rgb(34, 18, 105));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.section5_main img{
+    height: 80%;
+}
+.right_text{
+    width: 50%;
+    margin-left: 50px;
+}
+.section5_main ul{
+    list-style-type:none;
+}
+.section5_main h2{
+    font-size: 45px;
+}
+.section_main>*{
+
+}
+.phone_image{
+    background-image: url("https://www17.wellsfargomedia.com/assets/images/rwd/Native_App_Phone_Personal_v8.png");
+    z-index: 2;
+}
+.section5_buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.section5_buttons button{
+    width: 45%;
+    height: 3.5rem;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5_subtext{
+    font-size: 30px;
+}

@@ -1,0 +1,32 @@
+.section3_container{
+    display: flex;
+    justify-content: center;
+}
+.section3_main{
+    margin-top: 20px;
+    width: 65%;
+    background-image: url("https://www17.wellsfargomedia.com/assets/images/contextual/responsive/lpromo/nita-ipadscreen-en_1600x700-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3_main_child{
+    margin-left: 45px;
+    width: 35%;
+}
+.section3_main_child h2{
+    font-size: 45px;
+}
+.section3_main_child p{
+    font-size: 25px;
+}
+.section3_main_child button{
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+    height: 3rem;
+    font-size: 15px;
+}
+.section3_main_child button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,52 @@
+@import url(stylesheets/header.css);
+@import url(stylesheets/section1.css);
+@import url(stylesheets/section2.css);
+@import url(stylesheets/section3.css);
+@import url(stylesheets/section4.css);
+@import url(stylesheets/section5.css);
+@import url(stylesheets/section6.css);
+@import url(stylesheets/footer.css);
+
+body{
+    display: grid;
+    grid-template-rows: .13fr 7fr 2.2fr;
+    height: 340rem;
+    width: 100vw;
+    font-family:Arial, Helvetica, sans-serif;
+    /* row-gap: 10px; */
+}
+button, .cursor{
+    cursor: pointer;
+}
+.link:hover{
+    text-decoration: underline;
+}
+:root{
+    --color_main:rgba(241, 228, 211, 0.329);
+    --box_shadow_main:1px 1px 5px rgba(128, 128, 128, 0.473);
+}
+.color_main{
+    background-color: var(--color_main);
+}
+a{
+    text-decoration: none;
+}
+body>*{
+    /* background-color: bisque; */
+}
+main{
+    display: grid;
+    grid-template-rows: .6fr .4fr .6fr .8fr .7fr .6fr;
+    /* row-gap: 5px; */
+}
+main div{
+    /* background-color: burlywood; */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid yellow;
+    background-color: rgb(223, 50, 50);
+    color: white;
+}
