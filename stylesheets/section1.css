@@ -3,7 +3,7 @@
     justify-content: center;
 }
 .section1{
-    width: 65%;
+    width: 60%;
     height: 100%;
     display: grid;
     grid-template-rows: .2fr .8fr;
@@ -38,7 +38,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr .8fr;
     column-gap: 15px;
+    background-image: url("https://www17.wellsfargomedia.com/assets/images/contextual/responsive/hpprimary/wfi_ph_o_enjoy300_1700x700.jpg");
     /* background-color: rgba(228, 225, 201, 0.322); */
+    background-position: 70% 120%;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .section1_main div{
     /* background-color: beige; */
@@ -96,7 +100,7 @@
 }
 #enroll_link{
     position: absolute;
-    margin-left: 12rem;
+    margin-left: 17rem;
 }
 .form_footer{
     background-color: rgba(233, 215, 193, 0.445);
